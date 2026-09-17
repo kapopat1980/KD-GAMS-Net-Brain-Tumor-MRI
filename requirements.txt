@@ -1,0 +1,34 @@
+# Core deep learning stack
+torch>=2.0
+torchvision>=0.15
+
+# Data handling / scientific computing
+numpy
+pandas
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Image handling, contour-crop preprocessing, and leakage-audit hashing
+Pillow
+opencv-python-headless
+ImageHash
+
+# Model introspection / efficiency measurement
+torchinfo
+thop
+
+# Explainability
+grad-cam
+
+# Statistical testing (McNemar's test)
+statsmodels
+
+# NOTE: this notebook was run on Kaggle's managed GPU notebook environment, which
+# preinstalls most of the above. This file lists every package directly imported by the
+# notebook so it can be reproduced in a different environment; exact version pins were not
+# recorded during the original run. If you need bit-for-bit reproducibility, record
+# `torch.__version__` / `torchvision.__version__` printed by the notebook on your run.

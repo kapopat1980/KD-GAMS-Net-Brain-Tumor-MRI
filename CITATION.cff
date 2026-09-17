@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this code, results, or the leakage-audit dataset annotations, please cite the manuscript below. This work is a preprint/draft and has not yet completed peer review — update this file once a DOI and final venue are assigned."
+title: "KD-GAMS-Net: Knowledge Distillation Narrows the Pretraining Gap for a Lightweight Brain Tumor MRI Classifier, and Uncovers Pervasive Near-Duplication in a Merged Kaggle Corpus"
+authors:
+  - family-names: "Meva"
+    given-names: "Divyakant"
+    affiliation: "Faculty of Computer Applications (FOCA), Marwadi University, Rajkot, Gujarat, India"
+    # TODO: add ORCID if available, e.g. orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Popat"
+    given-names: "Kalpesh"
+    affiliation: "Marwadi University, Rajkot, Gujarat, India"
+    # TODO: confirm exact department/designation and add ORCID if available
+version: "1.0.0"
+date-released: "2026-09-14"
+license: MIT
+repository-code: "https://github.com/TODO-your-username/KD-GAMS-Net-Brain-Tumor-MRI"
+keywords:
+  - brain tumor MRI classification
+  - knowledge distillation
+  - lightweight convolutional neural network
+  - data leakage
+  - near-duplicate images
+  - McNemar's test
+  - reproducible benchmarking
+related-identifiers:
+  - type: url
+    value: "https://github.com/TODO-your-username/GAMS-Net-Brain-Tumor-MRI"
+    relation: "isVariantFormOf"
+    # This is the companion/prior study (GAMS-Net) that this work builds on.
+preferred-citation:
+  type: article
+  title: "KD-GAMS-Net: Knowledge Distillation Narrows the Pretraining Gap for a Lightweight Brain Tumor MRI Classifier, and Uncovers Pervasive Near-Duplication in a Merged Kaggle Corpus"
+  authors:
+    - family-names: "Meva"
+      given-names: "Divyakant"
+      affiliation: "Faculty of Computer Applications (FOCA), Marwadi University, Rajkot, Gujarat, India"
+    - family-names: "Popat"
+      given-names: "Kalpesh"
+      affiliation: "Marwadi University, Rajkot, Gujarat, India"
+  # TODO: fill in once accepted/published:
+  journal: "TODO - target journal name"
+  year: 2026
+  volume: "TODO"
+  issue: "TODO"
+  start: "TODO"
+  end: "TODO"
+  doi: "TODO"

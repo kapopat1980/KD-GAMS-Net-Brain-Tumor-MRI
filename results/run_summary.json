@@ -1,0 +1,27 @@
+{
+  "seed42_headline_accuracy": {
+    "KD-GAMS-Net": 0.9731379731379731,
+    "GAMS-Net-baseline": 0.9694749694749695,
+    "MobileNetV2": 0.9755799755799756,
+    "EfficientNetB0": 0.9719169719169719
+  },
+  "params_M": {
+    "KD-GAMS-Net": 3.164,
+    "GAMS-Net-baseline": 2.956,
+    "MobileNetV2": 0.0,
+    "EfficientNetB0": 0.0
+  },
+  "config": {
+    "EPOCHS": 40,
+    "PATIENCE": 8,
+    "KD_ALPHA": 0.4,
+    "KD_TEMPERATURE": 4.0,
+    "FOCAL_GAMMA": 2.0,
+    "SKIP_MULTISEED": false,
+    "seeds": [
+      42,
+      123,
+      2024
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+Comparison,Acc_A,Acc_B,Statistic,p_value,Significant_at_0.05
+KD-GAMS-Net-seed42 vs GAMS-Net-baseline-seed42,0.9731,0.9695,8.0,0.64761,No
+KD-GAMS-Net-seed42 vs MobileNetV2-seed42,0.9731,0.9756,11.0,0.83882,No
+KD-GAMS-Net-seed42 vs EfficientNetB0-seed42,0.9731,0.9719,0.0,1.0,No
+KD-GAMS-Net-seed42 vs ablation-wo-KD-seed42,0.9731,0.9585,4.033,0.04461,Yes
+KD-GAMS-Net-seed42 vs ablation-wo-doubleMSDF-seed42,0.9731,0.967,0.64,0.42371,No
+KD-GAMS-Net-seed42 vs ablation-wo-spatial-seed42,0.9731,0.9683,9.0,0.52347,No

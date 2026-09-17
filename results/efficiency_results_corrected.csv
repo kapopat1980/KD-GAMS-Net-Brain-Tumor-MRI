@@ -1,0 +1,5 @@
+Model,Params(M),FLOPs(GMac),Latency_GPU_ms,Latency_CPU_ms
+KD-GAMS-Net,3.164,1.853,4.806,44.761
+GAMS-Net-baseline,2.956,1.2,4.463,35.969
+MobileNetV2,2.229,0.326,5.183,21.9
+EfficientNetB0,4.013,0.414,8.13,36.514
